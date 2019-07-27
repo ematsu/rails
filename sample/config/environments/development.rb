@@ -63,9 +63,10 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
 	# Mailer settings
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :smtp
-	#config.action_mailer.delivery_method = :test
+  #config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = false
+  #config.action_mailer.delivery_method = :smtp
+	config.action_mailer.delivery_method = :test
 	host = 'rails.denninger.jp'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   ActionMailer::Base.smtp_settings = {
