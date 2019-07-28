@@ -24,7 +24,7 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
   test "layout links when logged in user" do
     log_in_as(@user)
     get root_path
-    assert_select "a[href=?]", root_path, count:3
+    assert_select "a[href=?]", root_path, count:2
     assert_select "a[href=?]", help_path
     assert_select "a[href=?]", about_path
     assert_select "a[href=?]", contact_path
