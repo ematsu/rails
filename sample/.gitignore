@@ -33,5 +33,8 @@
 # Ignore Spring files.
 /spring/*.pid
 
-# Ignore .env
+# Ignore dotenv
 /.env
+
+# Ignore uploads
+/public/uploads
