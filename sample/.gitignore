@@ -33,8 +33,12 @@
 # Ignore Spring files.
 /spring/*.pid
 
-# Ignore .env
+# Ignore dotenv
 /.env
 
+<<<<<<< HEAD
 # Ignore uploaded image
+=======
+# Ignore uploads
+>>>>>>> password-reset
 /public/uploads
