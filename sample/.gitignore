@@ -36,9 +36,5 @@
 # Ignore dotenv
 /.env
 
-<<<<<<< HEAD
 # Ignore uploaded image
-=======
-# Ignore uploads
->>>>>>> password-reset
 /public/uploads
